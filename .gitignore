@@ -1,0 +1,55 @@
+# Root directory
+cd climate-dashboard
+
+# Create a .gitignore file
+cat > .gitignore << 'EOF'
+# Dependencies
+node_modules/
+/.pnp
+.pnp.js
+
+# Testing
+/coverage
+
+# Production
+/build
+/dist
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Docker
+.docker/
+docker-compose.override.yml
+
+# Cache
+.npm
+.eslintcache
+
+# Editor directories and files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# MongoDB data
+/data/db
+/mongodb
+
+# Redis data
+/redis-data
+
+# Build outputs
+**/build/
+**/dist/
+EOF
