@@ -1,5 +1,7 @@
 # Climate Dashboard
 
+![Dashboard Screenshot](dashboard.png)
+
 ## Overview
 
 Climate Dashboard is a comprehensive web application for visualizing and monitoring climate data trends. It features interactive charts and maps that display critical climate metrics including global temperature anomalies, CO₂ concentrations, precipitation patterns, sea level rise, and ice extent data.
